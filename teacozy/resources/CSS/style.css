@@ -1,0 +1,162 @@
+body {
+ margin: 0 auto;
+ padding: 0;
+ font-family: Helvetica, sans-serif;
+ font-size: 22px;
+ color: SeaShell;
+ background-color: Black;
+ opacity: 0.9;
+ text-align: center;
+}
+
+h2, h4, h5 {
+ margin: 0;
+ padding: 10px;
+}
+
+div {
+ /* border: 1px solid white; */
+}
+
+/* Header section */
+
+header {
+ height: 69px;
+ background-color: Black;
+ border-bottom: 1px solid SeaShell;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ position: fixed;
+ width: 100%;
+ z-index: 3;
+}
+
+header img {
+ height: 50px;
+ padding-left: 10px;
+}
+
+nav span {
+ padding: 10px;
+}
+
+a {
+ color: SeaShell;
+}
+
+/* Main section */
+
+.main {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ position: relative;
+ padding-top: 70px;
+}
+
+.content, .main {
+ margin: 0 auto;
+ padding-top: 70px;
+}
+
+#mission {
+ background-image: url("../Images/img-mission-background.jpg");
+ height: 700px;
+ width: 1200px;
+ display: flex;
+ align-items: center;
+}
+
+.description {
+ background-color: Black;
+ width: 100%;
+}
+
+/* Featured Tea section */
+
+#featured-tea {
+ width: 1000px;
+}
+
+.teas {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.tea {
+ margin: 5px;
+}
+
+.tea img {
+ width: 300px;
+ height: 200px;
+ margin: 10px;
+}
+
+p {
+ margin: 0 auto;
+ padding-bottom: 5px;
+ font-weight: bold;
+}
+
+/* Locations section */
+
+#locations {
+ background-image: url("../Images/img-locations-background.jpg");
+ height: 500px;
+ width: 1200px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 65px;
+}
+
+.cities {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ padding-top: 5px;
+}
+
+.city {
+ width: 300px;
+ height: 280px;
+ background-color: Black;
+ margin: 5px 20px;
+ opacity: 1;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+h3 {
+ margin: 0;
+ padding: 20px 0;
+}
+
+.city span {
+ padding: 20px 0;
+}
+
+
+
+.contact {
+ height: 200px;
+}
+
+.info {
+ margin: 15px 0;
+}
+
+.info h5 {
+ padding: 15px;
+}
+
+
+
+footer {
+ text-align: left;
+ padding: 20px;
+}
